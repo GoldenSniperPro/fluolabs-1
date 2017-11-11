@@ -1,0 +1,16 @@
+def setup() :
+    size(400, 400)
+    
+def draw() :
+    size(400, 400)
+    strokeWeight(5)
+    background(150)
+    stroke(138,43, 236)
+    
+    for i in range(10) :
+        x1 = random(400)
+        y1 = random(400)
+        x2 = x1
+        y2 = y1 + 10
+        line(x1, y1, x2, y2)
+    
